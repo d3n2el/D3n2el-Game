@@ -1,90 +1,90 @@
 
-# D3n2el's Portfolio and Game of life
+# Game of Life
 
-A brief description of wha
+A 2D platformer game that tells an autobiographical story through different life stages and experiences.
 
-This repository contains two distinct projects that have been consolidated for convenience: an interactive Portfolio Website and a "Game of Life" mini-game.
+## What This Project Does
 
-How to Access
+Game of Life is a narrative-driven platformer where players control a pixel character through various levels representing different stages of life. The game combines storytelling with classic platformer mechanics, featuring:
 
-To explore the projects, open index.html in your web browser. This serves as the main entry point, allowing you to choose between launching the game or viewing the portfolio.
+- **Story-driven gameplay**: Each level represents a different life stage (childhood, adolescence, etc.)
+- **Cultural elements**: Levels include various cultural references with flags, food, and landmarks
+- **Progressive difficulty**: Multiple levels with increasing complexity and different objectives
+- **Visual storytelling**: Uses pixel art and symbolic imagery to convey life experiences
 
-Project 1: Daniel Lialin's Portfolio
+### Game Features
 
-This project is an interactive portfolio website showcasing Daniel Lialin's profile, skills, and interests through a series of engaging slides.
+- **Player Movement**: Smooth character control with left/right movement and jumping
+- **Physics System**: Realistic gravity and collision detection
+- **Multiple Levels**: Several distinct levels with unique themes and layouts
+- **Interactive Elements**: Ground tiles, brick tiles, and various collectible items
+- **Level Progression**: Flag-based level completion system
+- **Loading System**: Smooth asset loading with animated loading screen
+- **Transition Screens**: Story elements between levels with continuation choices
 
-Features
+### Technical Features
 
-    Introduction: A personal introduction to Daniel Lialin.
+- **HTML5 Canvas**: Smooth 2D graphics rendering
+- **Modular JavaScript**: Object-oriented programming with separate classes
+- **Asset Management**: Efficient image loading and management system
+- **Responsive Design**: Adapts to different screen sizes
+- **Custom Fonts**: Uses Google Fonts (Italiana) for enhanced typography
 
-    Multilingual Skills: Details on languages spoken (Italian, Russian, English, Spanish, French, and Chinese).
+## How to Run
 
-    Business Interests: Information on business passions, specialization from Duke University, and J.P. Morgan job simulation.
+### Prerequisites
+- A modern web browser (Chrome, Firefox, Safari, Edge)
+- No additional software installation required
 
-    Sports & Other Hobbies: Content related to sports and other interests.
+### Running the Game
 
-    Technical Skills: A showcase of technical proficiencies.
+1. **Download or Clone** this repository to your local machine
+2. **Navigate** to the project folder
+3. **Open** `index.html` in your web browser
+4. **Click "Yes"** when prompted "Do you want to play the game?"
+5. **Wait** for the loading screen to complete
+6. **Start playing** using the controls below
 
-    Interactive Slides: Content is presented in a slide format with navigation options.
+### Game Controls
 
-    Slide Modes: Supports horizontal, vertical, and a special "fun" mode for viewing content.
+- **Move Left**: Left Arrow Key or 'A'
+- **Move Right**: Right Arrow Key or 'D'  
+- **Jump**: Spacebar
+- **Navigate Menus**: Use the on-screen options during transition screens
 
-    Dynamic Styling: Includes animated backgrounds and interactive button styles.
+### Alternative Access
 
-    Contact Information: Direct links for email and Instagram.
+You can also directly open `game.html` in your browser to skip the main menu and go straight to the game.
 
-    Credits Page: A dedicated page listing credits for images, graphics, and fonts used.
+## Screenshots
 
-Technologies Used
+### Main Menu Interface
+![Main Menu](https://hc-cdn.hel1.your-objectstorage.com/s/v3/87038e14767e163c9d258b2be00be4178c343c7a_capture.png)
 
-    HTML5
+### Gameplay in Action
+![Gameplay](https://hc-cdn.hel1.your-objectstorage.com/s/v3/55659a39838527f934ee576e3e55ad6563f27e6c_cap2.png)
 
-    CSS3 (alt.css)
+### Level Environment with Cultural Elements
+![Level Environment](https://hc-cdn.hel1.your-objectstorage.com/s/v3/063ebae229001ad144a314f2edaac9ca675ea984_cap3.png)
 
-    JavaScript (altscreen.js) for interactive elements and slide management
+### Level Transition Screen
+![Level Transition](https://hc-cdn.hel1.your-objectstorage.com/s/v3/e109006d846ba404f13e6d0d769f0d5566f5ec32_cap4.png)
 
-    Google Fonts (Jost, JetBrains Mono)
+---
 
-    Custom Fonts (TIMMONSNY from [suspicious link removed])
+### Technologies Used
 
-Usage
+- **HTML5** - Game structure and canvas element
+- **CSS3** - Styling and loading screen animations  
+- **JavaScript (ES6+)** - Game logic, physics, and interactivity
+- **HTML5 Canvas API** - 2D graphics rendering
+- **Google Fonts** - Typography (Italiana font family)
 
-Open index.html, click no and then navigate through the portfolio using the "Explore" button and the provided navigation arrows. You can switch between horizontal and vertical slide modes, and discover a "fun mode" for a different viewing experience.
+### File Structure
 
-Project 2: Game of Life
-
-This project is a simple platformer-style game where a character navigates through different levels, interacting with game elements like tiles and flags.
-
-Features
-
-    Player Movement: Character control with left/right movement and jumping capabilities.
-
-    Gravity Physics: Basic gravity implementation for realistic falling.
-
-    Collision Detection: Handles player collisions with ground and brick tiles.
-
-    Image Loading: Asynchronously loads game assets like the character, ground, bricks, and various flags.
-
-    Multiple Levels: The game includes several levels with distinct layouts and objectives, represented by different images like a hospital, house, and flags.
-
-    Transition Screens: Displays transition screens between levels, indicating level completion and offering options to continue or exit.
-
-    Loading Screen: Features a loading screen with an animation while game assets are being loaded.
-
-Technologies Used
-
-    HTML5 (game.html)
-
-    CSS3 (game.css) for basic styling and loading screen animation
-
-    JavaScript (game.js, InputHandler.js, allClasses.js) for game logic, input handling, and object-oriented programming.
-
-    HTML Canvas for rendering game graphics.
-
-Usage
-
-Open index.html and select the "Yes" option to start the game. Use the arrow keys (Left/Right) or 'A'/'D' for horizontal movement and the Spacebar to jump. Progress through levels by reaching the level-end flags.
-
-Credits
-
-For detailed credits regarding images, graphics, and fonts used in the Portfolio website, please refer to the Credits page.
+- `game.html` - Main game page
+- `game.js` - Core game logic and level data
+- `allClasses.js` - Game object classes (Player, UI, Background, ImageLoader)
+- `InputHandler.js` - Keyboard input management
+- `game.css` - Game styling and animations
+- `images/` - All game assets and sprites
