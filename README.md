@@ -65,10 +65,10 @@ You can also directly open `game.html` in your browser to skip the main menu and
 ![Gameplay](https://hc-cdn.hel1.your-objectstorage.com/s/v3/55659a39838527f934ee576e3e55ad6563f27e6c_cap2.png)
 
 ### Level Environment with Cultural Elements
-![Level Environment](https://hc-cdn.hel1.your-objectstorage.com/s/v3/063ebae229001ad144a314f2edaac9ca675ea984_cap3.png)
+![Level Transition](https://hc-cdn.hel1.your-objectstorage.com/s/v3/063ebae229001ad144a314f2edaac9ca675ea984_cap3.png)
 
 ### Level Transition Screen
-![Level Transition](https://hc-cdn.hel1.your-objectstorage.com/s/v3/e109006d846ba404f13e6d0d769f0d5566f5ec32_cap4.png)
+![Level Environment](https://hc-cdn.hel1.your-objectstorage.com/s/v3/e109006d846ba404f13e6d0d769f0d5566f5ec32_cap4.png)
 
 ---
 
